@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class Player1Movement : MonoBehaviour
+public class Player2Movement : MonoBehaviour
 {
     private float velocity = 0.05f;
     private float angleRotation = 10f;
-    public KeyCode keyUp = KeyCode.W;
-    public KeyCode keyDown = KeyCode.S;
-    public KeyCode keyLeft = KeyCode.A;
-    public KeyCode keyRight = KeyCode.D;
-    public KeyCode rotateLeft = KeyCode.Q;
-    public KeyCode rotateRight = KeyCode.E;
-    public KeyCode changeColor = KeyCode.R;
+    public KeyCode keyUp = KeyCode.UpArrow;
+    public KeyCode keyDown = KeyCode.DownArrow;
+    public KeyCode keyLeft = KeyCode.LeftArrow;
+    public KeyCode keyRight = KeyCode.RightArrow;
+    public KeyCode rotateLeft = KeyCode.Keypad1;
+    public KeyCode rotateRight = KeyCode.Keypad3;
+    public KeyCode changeColor = KeyCode.Keypad0;
 
     SpriteRenderer spriteRenderer; 
     private void Awake()
